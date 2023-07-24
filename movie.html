@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Details</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css"> <!-- Link to the retro theme CSS file -->
+</head>
+<body>
+  <a href="index.html" class="btn btn-primary">Home</a> <!-- Link to the home page -->
+  <div class="container mt-5" id="movieDetails">
+    <!-- Content for the movie details page -->
+    <img class="movie-poster" src="" alt="Movie Poster">
+    <h2 class="movie-title"></h2>
+    <p class="movie-rating"></p>
+    <div class="movie-info">
+      <p><strong>Genre:</strong> <span class="movie-genre"></span></p>
+      <p><strong>Runtime:</strong> <span class="movie-runtime"></span></p>
+      <p><strong>Director:</strong> <span class="movie-director"></span></p>
+      <p><strong>Actors:</strong> <span class="movie-actors"></span></p>
+    </div>
+    <p class="movie-plot"></p>
+    <div class="remove-button">
+      <button class="btn btn-danger" onclick="removeFromFavorites('')">Remove from Favorites</button>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
